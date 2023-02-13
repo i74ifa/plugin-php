@@ -46,7 +46,7 @@ function printNumber(rawNumber) {
       // Make sure numbers always start with a digit.
       .replace(/^([+-])?\./, "$10.")
       // Remove extraneous trailing decimal zeroes.
-      .replace(/(\.\d+?)0+(?=e|$)/, "$1")
+      .replace(/(\.\d+?)00+(?=e|$)/, "$10")
       // Remove unnecessary .e notation
       .replace(/\.(?=e)/, "")
   );
