@@ -1766,6 +1766,7 @@ function printNode(path, options, print) {
     case "enum":
     case "interface":
     case "trait":
+    case "return":
       return printClass(path, options, print);
     case "traitprecedence":
       return concat([

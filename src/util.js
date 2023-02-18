@@ -170,6 +170,7 @@ function nodeHasStatement(node) {
     "trait",
     "traituse",
     "declare",
+    "return",
   ].includes(node.kind);
 }
 
